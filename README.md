@@ -2,7 +2,7 @@
 2021-02-07
 
 ### Project Title
-Post your Work on GitHub
+Post Bike Share Project on GitHub
 
 ### Description
 The project displays bike sharing data for Chicago, New York City, and
