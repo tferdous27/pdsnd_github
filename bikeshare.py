@@ -200,15 +200,15 @@ def user_stats(df):
 
 
 def raw_data(df):
-    """Display 5 lines of raw data upon request."""
+    """Display 6 lines of raw data upon request."""
     data = input('\nWould you like to see individual trip data? Please type "yes" or "no".\n').lower()
     if data == 'yes':
         index1 = 0
-        index2 = 5
+        index2 = 6
         while True:
             print(df.iloc[index1: index2])
-            index1 += 5
-            index2 += 5
+            index1 += 6
+            index2 += 6
             more_data = input('\nWould you like to see more data? Please type "yes" or "no".\n').lower()
             if more_data != 'yes':
                 break
